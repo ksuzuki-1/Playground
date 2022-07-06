@@ -14,6 +14,7 @@
 		2B97785728750A17004D1E8C /* PlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B97785628750A17004D1E8C /* PlaygroundTests.swift */; };
 		2B97786128750A17004D1E8C /* PlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B97786028750A17004D1E8C /* PlaygroundUITests.swift */; };
 		2B97786328750A17004D1E8C /* PlaygroundUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B97786228750A17004D1E8C /* PlaygroundUITestsLaunchTests.swift */; };
+		2B97787128750D12004D1E8C /* CirclarProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B97787028750D12004D1E8C /* CirclarProgress.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		2B97785C28750A17004D1E8C /* PlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaygroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B97786028750A17004D1E8C /* PlaygroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundUITests.swift; sourceTree = "<group>"; };
 		2B97786228750A17004D1E8C /* PlaygroundUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2B97787028750D12004D1E8C /* CirclarProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CirclarProgress.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		2B97784428750A15004D1E8C /* Playground */ = {
 			isa = PBXGroup;
 			children = (
+				2B97786F28750D12004D1E8C /* Component */,
 				2B97784528750A15004D1E8C /* PlaygroundApp.swift */,
 				2B97784728750A15004D1E8C /* ContentView.swift */,
 				2B97784928750A16004D1E8C /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				2B97786228750A17004D1E8C /* PlaygroundUITestsLaunchTests.swift */,
 			);
 			path = PlaygroundUITests;
+			sourceTree = "<group>";
+		};
+		2B97786F28750D12004D1E8C /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				2B97787028750D12004D1E8C /* CirclarProgress.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B97787128750D12004D1E8C /* CirclarProgress.swift in Sources */,
 				2B97784828750A15004D1E8C /* ContentView.swift in Sources */,
 				2B97784628750A15004D1E8C /* PlaygroundApp.swift in Sources */,
 			);

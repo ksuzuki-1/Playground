@@ -9,8 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        CirclarProgress(progress: 67, isInserve: false, strokeWidth: 24)
     }
 }
 
